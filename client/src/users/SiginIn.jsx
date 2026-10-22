@@ -41,7 +41,7 @@ const SignIn = ({onLogin}) => {
            if(user.password === password){
               setLoginResult("success");
               // 로그인 성공시 부모컴포넌트(App.jsx)에 로그인 상태 저장
-              onLogin(user.username);
+              onLogin(user.username, user.role);
               alert("로그인 되었습니다.");
               navigate('/');  // 메인페이지로 이동
            }else{
