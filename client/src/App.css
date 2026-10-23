@@ -189,3 +189,14 @@
   padding: 8px 16px;
   margin: 5px;
 }
+
+/* 관리자 페이지 스타일 */
+.admin-cards{
+  display: flex;
+  gap: 16px;
+  margin: 20px auto;
+}
+.admin-card{
+  flex: 1; /* 동일한 너비로 배분 */
+  padding: 16px;
+}
