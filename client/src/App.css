@@ -199,4 +199,26 @@
 .admin-card{
   flex: 1; /* 동일한 너비로 배분 */
   padding: 16px;
+  background-color: rgb(2, 175, 2);
+  color: #ebeaea;
+  border-radius: 8px;
+}
+.admin-card:hover{
+  background-color: rgb(15, 129, 15);
+}
+.admin-card p{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.admin-page table{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.admin-page th, td{
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+.admin-page thead{
+  background-color: #eee;
 }
